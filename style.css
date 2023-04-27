@@ -1,0 +1,53 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+#color-palette {
+    width: 16em;
+    height: 3em;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    padding: 1px;
+}
+
+.color {
+    width: 50px;
+    height: 50px;
+    border: 1px solid;
+}
+
+#button-random-color {
+    margin-left: 10px;
+}
+
+#pixel-board {
+    height: 200px;
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: start;
+    justify-content: start;
+}
+
+.pixel {
+    border: solid 1px;
+    height: 40px;
+    width: 40px;
+    flex: none;
+
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    background-image: url(fundorosa1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 100vh;
+ 
+}
+
